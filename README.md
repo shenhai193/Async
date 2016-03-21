@@ -1,5 +1,5 @@
 # Async
-Async 的oc版本，支持链式语法    
+Async流程控制，支持oc链式语法    
 Syntactic sugar in Obj-C for asynchronous dispatches in Grand Central Dispatch
 
 
