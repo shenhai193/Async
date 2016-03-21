@@ -1,6 +1,6 @@
 # Async
 Async 的oc版本，支持链式语法
-
+pod 'OCAsync', '~> 0.0.1'
 
 Chain as many blocks as you want:
 
