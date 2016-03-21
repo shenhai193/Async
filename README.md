@@ -9,7 +9,7 @@ Syntactic sugar in Obj-C for asynchronous dispatches in Grand Central Dispatch
 
 
 # Usage
-Objective-C, Chain as many blocks as you want:
+Chain as many blocks as you want:
 
     #import <OCAsync/Async.h>
 
