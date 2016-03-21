@@ -3,14 +3,13 @@ Async 的oc版本，支持链式语法
 
 Syntactic sugar in Obj-C for asynchronous dispatches in Grand Central Dispatch
 
-CocoaPods
-# Your Podfile
+
+# CocoaPods, Your Podfile
 platform :ios, '8.0'
 pod 'OCAsync'
 
 
-Usage
-
+# Usage
 Objective-C
 
 Chain as many blocks as you want:
