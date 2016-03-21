@@ -57,12 +57,12 @@
 @property (copy, nonatomic)dispatch_block_t block;
 
 
-@property (nonatomic)AsyncMethod main;
-@property (nonatomic)AsyncMethod userInteractive;
-@property (nonatomic)AsyncMethod userInitiated;
-@property (nonatomic)AsyncMethod utility;
-@property (nonatomic)AsyncMethod background;
-@property (nonatomic)AsyncCustomQueue customQueue;
+@property (copy, nonatomic)AsyncMethod main;
+@property (copy, nonatomic)AsyncMethod userInteractive;
+@property (copy, nonatomic)AsyncMethod userInitiated;
+@property (copy, nonatomic)AsyncMethod utility;
+@property (copy, nonatomic)AsyncMethod background;
+@property (copy, nonatomic)AsyncCustomQueue customQueue;
 
 
 + (Async *)block:(dispatch_block_t)block;

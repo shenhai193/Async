@@ -16,12 +16,12 @@ typedef Async* (^AsyncCustomQueue)(dispatch_queue_t queue, double after, dispatc
 
 @interface Async : NSObject
 
-@property (nonatomic, readonly)AsyncMethod main;
-@property (nonatomic, readonly)AsyncMethod userInteractive;
-@property (nonatomic, readonly)AsyncMethod userInitiated;
-@property (nonatomic, readonly)AsyncMethod utility;
-@property (nonatomic, readonly)AsyncMethod background;
-@property (nonatomic, readonly)AsyncCustomQueue customQueue;
+@property (copy, nonatomic, readonly)AsyncMethod main;
+@property (copy, nonatomic, readonly)AsyncMethod userInteractive;
+@property (copy, nonatomic, readonly)AsyncMethod userInitiated;
+@property (copy, nonatomic, readonly)AsyncMethod utility;
+@property (copy, nonatomic, readonly)AsyncMethod background;
+@property (copy, nonatomic, readonly)AsyncCustomQueue customQueue;
 
 
 @end
